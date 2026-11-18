@@ -25,12 +25,12 @@ dp = Dispatcher()
 def get_format_keyboard():
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [
-           InlineKeyboardButton(text="💬 Text(Текст)", callback_data="fmt_text"),
-           InlineKeyboardButton(text="📄 Document(Документ)", callback_data="fmt_doc")
+           InlineKeyboardButton(text="💬 Text", callback_data="fmt_text"),
+           InlineKeyboardButton(text="📄 Document", callback_data="fmt_doc")
         ],
         [
-            InlineKeyboardButton(text="📊 Table(Таблица)", callback_data="fmt_excel"),
-            InlineKeyboardButton(text="📽 Presentation(Презентация)", callback_data="fmt_ppt")
+            InlineKeyboardButton(text="📊 Table", callback_data="fmt_excel"),
+            InlineKeyboardButton(text="📽 Presentation", callback_data="fmt_ppt")
         ]
     ])
     return keyboard
@@ -38,12 +38,12 @@ def get_format_keyboard():
 def get_slides_keyboard():
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
             [
-               InlineKeyboardButton(text="5 Slides(Слайдов)", callback_data="slides_5"),
-               InlineKeyboardButton(text="8 Slides(Слайдов)", callback_data="slides_8")
+               InlineKeyboardButton(text="5 Slides", callback_data="slides_5"),
+               InlineKeyboardButton(text="8 Slides", callback_data="slides_8")
             ],
             [
-                InlineKeyboardButton(text="12 Slides(Слайдов)", callback_data="slides_12"),
-                InlineKeyboardButton(text="15 Slides(Слайдов)", callback_data="slides_15")
+                InlineKeyboardButton(text="12 Slides", callback_data="slides_12"),
+                InlineKeyboardButton(text="15 Slides", callback_data="slides_15")
             ]    
     ])
     return keyboard
