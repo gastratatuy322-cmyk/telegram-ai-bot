@@ -5,6 +5,11 @@
 ![OpenRouter](https://shields.io)
 
 An asynchronous Telegram bot that searches real-time information on the web, generates structured responses, refines text for natural human-likeness, evaluates AI probability locally, and builds ready-to-use **Word**, **Excel**, and **PowerPoint** files directly in RAM (`BytesIO`) without saving temporary files to disk.
+---
+
+## 👤 Author & License
+
+Created at **16** as my first full-scale Python project exploring Telegram bots and LLM workflows. Feel free to explore, fork, and use this code under the [MIT License](LICENSE)
 
 ---
 
