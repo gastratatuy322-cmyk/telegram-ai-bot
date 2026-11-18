@@ -1,0 +1,8 @@
+aiogram
+openai
+python-dotenv
+python-docx
+openpyxl
+python-pptx
+ddgs
+requests
